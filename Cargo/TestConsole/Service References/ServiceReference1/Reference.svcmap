@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="84d5eaa3-94b7-4ec5-8338-eee1713d843f" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/CargoService/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="8bcc9871-ab9e-45cb-8178-028699a4bf95" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CargoService/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="f9d598ac-c1ce-4c9d-b1da-09c446e88128" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CargoService/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="e5d7e550-4d62-4f87-b55a-83b5a975f427" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CargoService/Service1/mex" />
+    <MetadataFile FileName="CargoService.xsd" MetadataType="Schema" ID="13d7c2b5-8c05-42d8-895f-8aff8e5876bd" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/CargoService/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

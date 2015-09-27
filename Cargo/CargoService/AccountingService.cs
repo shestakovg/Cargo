@@ -4,6 +4,7 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
+using ServiceAuthentication;
 
 namespace CargoService
 {
@@ -26,6 +27,11 @@ namespace CargoService
                 composite.StringValue += "Suffix";
             }
             return composite;
+        }
+
+        public string GetStringAuthorized()
+        {
+            return "password";
         }
     }
 }

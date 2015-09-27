@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoDAL", "CargoDAL\CargoD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CargoService", "CargoService\CargoService.csproj", "{A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentification", "Authentification\Authentification.csproj", "{58C3F8AE-DC6E-468C-8C7E-8A31206ABD3C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{4C9C86DA-B14E-4B83-84B6-9319899D1572}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0} = {A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0}
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,14 @@ Global
 		{A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A17F4DA9-6ABF-4250-8DD8-E9F83DED57D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58C3F8AE-DC6E-468C-8C7E-8A31206ABD3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58C3F8AE-DC6E-468C-8C7E-8A31206ABD3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58C3F8AE-DC6E-468C-8C7E-8A31206ABD3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58C3F8AE-DC6E-468C-8C7E-8A31206ABD3C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9C86DA-B14E-4B83-84B6-9319899D1572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9C86DA-B14E-4B83-84B6-9319899D1572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9C86DA-B14E-4B83-84B6-9319899D1572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9C86DA-B14E-4B83-84B6-9319899D1572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -16,6 +16,8 @@ namespace CargoService
 
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
+        [OperationContract]
+        string GetStringAuthorized();
 
         // TODO: Add your service operations here
     }
